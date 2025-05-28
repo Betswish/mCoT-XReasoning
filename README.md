@@ -14,8 +14,6 @@ Python: `3.12.8`
 
 The script now supports the following types of models:
 
-1. **VLLM-based models** (default):
-
 - DeepSeek-R1-Distill Series
     - deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
     - deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
