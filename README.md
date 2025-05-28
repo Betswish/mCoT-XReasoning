@@ -36,7 +36,7 @@ You may simply run `bash run_multilingual.sh` for getting all results in our pap
 
 For easier usage, we have uploaded our datasets on our Huggingface. But we still provide a copy under `XReasoning_data` in this repository.
 
-## Additional Parameters
+## Parameter Details
 
 To execute cross-lingual reasoning tasks with a customized setup, utilize the `run.py` script with the following command-line arguments:
 
