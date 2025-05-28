@@ -1,4 +1,4 @@
-# hard-multilingual-cot
+# When Models Reason in Your Language: Controlling Thinking Trace Language Comes at the Cost of Accuracy
 
 ## Environments
 
