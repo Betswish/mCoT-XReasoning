@@ -82,12 +82,17 @@ For computing the language matching rate, run
 python compute_matching.py --output_dir {YOUR output folder}
 ```
 
+For showcasing the actual language distribution of the thinking traces, detect with LangDetect, run
+
+```bash
+python compute_matching_distribution.py --output_dir {YOUR output folder}
+```
+
 For calculating answer accuracy, run
 
 ```bash
 python eval.py --output_dir {YOUR output folder}
 ```
-
 * `output_dir`: output folder path, defaul `outputs_0`.
 
 
