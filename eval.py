@@ -156,7 +156,7 @@ def eval(output_dir, mname, lang, dataset, lang_think, store_answers, add_scores
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     # Model parameters
-    parser.add_argument("--output_dir", type=str, default="outputs", help="Loading from which directory")
+    parser.add_argument("--output_dir", type=str, default="outputs_0", help="Loading from which directory")
     parser.add_argument("--store", action="store_true", help="Store extracted answers in JSON files")
     parser.add_argument("--add_scores", action="store_true", help="Add reward model scores to JSON files")
     parser.add_argument("--reward_model_name", type=str, default="Skywork/Skywork-Reward-Gemma-2-27B-v0.2", help="Reward model name")

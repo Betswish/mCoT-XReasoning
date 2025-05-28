@@ -32,11 +32,7 @@ The script now supports the following types of models:
 
 You may simply run `bash run_multilingual.sh` for getting all results in our paper!
 
-## XReasoning Benchmark
-
-For easier usage, we have uploaded our datasets on our Huggingface. But we still provide a copy under `XReasoning_data` in this repository.
-
-## Parameter Details
+### Parameter Details
 
 To execute cross-lingual reasoning tasks with a customized setup, utilize the `run.py` script with the following command-line arguments:
 
@@ -78,3 +74,23 @@ For a comprehensive list of available options and their descriptions, refer to t
 ```bash
 python run.py --help
 ```
+## Evaluation (Language Matching \& Answer Accuracy)
+
+For computing the language matching rate, run
+
+```bash
+python compute_matching.py --output_dir {YOUR output folder}
+```
+
+For calculating answer accuracy, run
+
+```bash
+python eval.py --output_dir {YOUR output folder}
+```
+
+* `output_dir`: output folder path, defaul `outputs_0`.
+
+
+## XReasoning Benchmark
+
+For easier usage, we have uploaded our datasets on our Huggingface. But we still provide a copy under `XReasoning_data` in this repository.
