@@ -327,16 +327,12 @@ def main():
     parser.add_argument("--lang", type=str, default="EN", help="Language")
     parser.add_argument("--lang_think", type=str, default="default", help="Language for thinking")
     parser.add_argument("--seed", type=int, default="2025", help="Seeds for generation")
-    parser.add_argument("--tensor_parallel_size", type=int, default=1, help="tensor_parallel_size param for vllm init")
-    parser.add_argument("--batch_size", type=int, default=10, help="Batch size for API calls")
-    parser.add_argument("--max_workers", type=int, default=5, help="Maximum number of worker threads for API calls")
     parser.add_argument("--cache_dir", type=str, default=None, help="Path to the cache directory")
     
     # Generation parameters
     parser.add_argument("--temperature", type=float, default=0.6, help="Sampling temperature")
     parser.add_argument("--top_p", type=float, default=0.95, help="Top-p sampling parameter")
     parser.add_argument("--max_tokens", type=int, default=4096, help="Maximum number of tokens to generate")
-    parser.add_argument("--thinking_budget", type=int, default=3072, help="Thinking budget for Anthropic models")
     
     # Dataset parameters
     parser.add_argument("--dataset", type=str, default="aime_combined", 

@@ -102,13 +102,6 @@ run_job() {
   echo "  Fields: $QUESTION_FIELD / $ANSWER_FIELD"
   echo "  Split: $SPLIT"
   
-  # Set batch size based on model type
-  if [[ "$MODEL" == *"deepseek-r1"* ]]; then
-    BATCH_SIZE=5  # Smaller batch size for API models
-  else
-    BATCH_SIZE=50  # Batch size for vllm
-  fi
-  
   # Set max new tokens
   MAX_TOKENS=16834
   
@@ -138,7 +131,6 @@ run_job() {
       --question_field "$QUESTION_FIELD" \
       --answer_field "$ANSWER_FIELD" \
       --split "${LANG_LOWER}" \
-      --batch_size "$BATCH_SIZE" \
       --max_tokens "$MAX_TOKENS" \
       --cache_dir "/temp_work/ch225816/hf" \
       --seed "$SEED" \

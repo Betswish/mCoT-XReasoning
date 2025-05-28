@@ -38,14 +38,43 @@ For easier usage, we have uploaded our datasets on our Huggingface. But we still
 
 ## Additional Parameters
 
-If you wanna run cross-lingual thinking with a single setup on your own, try `run.py` with specified parameters:
+To execute cross-lingual reasoning tasks with a customized setup, utilize the `run.py` script with the following command-line arguments:
 
-- `--temperature`: Sampling temperature (default: 0.6)
-- `--top_p`: Top-p sampling parameter (default: 0.7)
-- `--max_tokens`: Maximum number of tokens to generate (default: 4096)
+* `--mname`: Specifies the model name or path. For example, `"deepseek-ai/DeepSeek-R1-Distill-Llama-70B"` selects the 70B-parameter DeepSeek-R1-Distill-Llama model.
 
-Example:
+* `--lang`: Sets the language code for the input data. Supported options include `EN` (English), `ZH` (Chinese), `ES` (Spanish), `FR` (French), `DE`(German),  `JA`(Japanese), `RU`(Russian), `BN`(Bengali), `TH`(Thai), `SW`(Swahili), and `TE` (Telugu).
+
+* `--lang_think`: Sets the language code for the language of thinking. Supported the same 11 languages.
+
+* `--seed`: Sets seeds for generation with sampling decoding. When set to 0, the LRM will be forced to do greedy decoding.
+
+* `--dataset`: Selects the dataset to use (`aime_combined`, `shanchen/gpqa_diamond_mc_multilingual:problem:solution`, `juletxara/mgsm`, etc.)
+
+* `--temperature`: Controls the randomness of the model's output. Higher values (e.g., `0.9`) yield more diverse outputs, while lower values (e.g., `0.2`) produce more deterministic results.
+
+* `--cache_dir`: Specifies the path to the cache directory, default `$TMPDIR`.
+
+* `--top_p`: Applies nucleus sampling by considering the smallest set of tokens with a cumulative probability above this threshold. A value of `0.95` means the model will sample from the top 95% probability mass.
+
+* `--max_tokens`: Defines the maximum number of tokens to generate in the output. Adjust this based on your model's capacity and the complexity of the task.
+
+### Example Usage
+
+To run the reasoning task in English using the DeepSeek-R1-Distill-Llama-70B model with specific sampling parameters:
 
 ```bash
-python run.py --mname "deepseek-ai/DeepSeek-R1-Distill-Llama-70B" --lang EN --temperature 0.7 --top_p 0.95 --max_tokens 16384
+python run.py \
+  --mname "deepseek-ai/DeepSeek-R1-Distill-Llama-70B" \
+  --lang EN \
+  --dataset aime_combined\
+  --lang_think DE \
+  --temperature 0.7 \
+  --top_p 0.95 \
+  --max_tokens 16384
+```
+
+For a comprehensive list of available options and their descriptions, refer to the help command:
+
+```bash
+python run.py --help
 ```
