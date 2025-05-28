@@ -1,0 +1,46 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "gpqa_diamond_mc",
+  "dataset_size": 148529,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/hendrydong/gpqa_diamond_mc@284143babc24a94fbac45d143333b2307e64ff80/data/test-00000-of-00001.parquet": {
+      "num_bytes": 75473,
+      "checksum": null
+    }
+  },
+  "download_size": 75473,
+  "features": {
+    "solution": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "problem": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "domain": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 224002,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 148529,
+      "num_examples": 198,
+      "dataset_name": "gpqa_diamond_mc"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
