@@ -28,9 +28,10 @@ The script now supports the following types of models:
     - Skywork/Skywork-OR1-7B
     - Skywork/Skywork-OR1-32B
 
-## Quick-start
+## How to run
+### Quick-start
 
-You may simply run `bash run_multilingual.sh` for getting all results in our paper!
+As a quick start, you may simply run `bash run_multilingual.sh` for getting all results in our paper!
 
 ### Parameter Details
 
@@ -74,6 +75,7 @@ For a comprehensive list of available options and their descriptions, refer to t
 ```bash
 python run.py --help
 ```
+
 ## Evaluation (Language Matching \& Answer Accuracy)
 
 For computing the language matching rate, run
