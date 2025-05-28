@@ -1,5 +1,6 @@
 # When Models Reason in Your Language: Controlling Thinking Trace Language Comes at the Cost of Accuracy
-
+[![Spaces](https://img.shields.io/badge/🤗-Open%20in%20HF-blue)](https://huggingface.co/collections/shanchen/xreasoning-681e7625c7a9ec4111a634b6)
+[![Spaces](https://img.shields.io/badge/🤗-Open%20in%20HF-orange)](https://huggingface.co/collections/shanchen/xreasoning-models-68377e15a2e86143dc4b0383)
 ## Environments
 
 For a quick start, you may load our environment easily with Conda:
