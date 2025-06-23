@@ -263,6 +263,7 @@ def run(args):
                 temperature=0.6,
                 top_p=0.95,
                 max_tokens=args.max_tokens,
+                seed=args.seed,
             )
         elif 's1.1-limo' in args.mname.lower() or 'qwen2.5-7b' in args.mname.lower():
             stop_token_ids = tokenizer("<|im_end|>")["input_ids"]
@@ -271,6 +272,7 @@ def run(args):
                 top_p=0.95,
                 max_tokens=args.max_tokens,
                 stop_token_ids=stop_token_ids,
+                seed=args.seed,
             )
         else:
             # Greedy decoding for Deepseek and Skywork models
@@ -278,6 +280,7 @@ def run(args):
                 temperature=1.0,
                 top_k=1,
                 max_tokens=args.max_tokens,
+                seed=args.seed,
             )
 
         if args.seed == 0:
@@ -286,6 +289,7 @@ def run(args):
                 temperature=1.0,
                 top_k=1,
                 max_tokens=args.max_tokens,
+                seed=args.seed,
             )
         responses = vmodel.generate(all_prompts, sampling_params, use_tqdm=True)
     
