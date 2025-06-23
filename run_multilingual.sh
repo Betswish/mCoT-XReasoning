@@ -132,7 +132,6 @@ run_job() {
       --answer_field "$ANSWER_FIELD" \
       --split "${LANG_LOWER}" \
       --max_tokens "$MAX_TOKENS" \
-      --cache_dir "/temp_work/ch225816/hf" \
       --seed "$SEED" \
       $TEST_MODE \
       # "
