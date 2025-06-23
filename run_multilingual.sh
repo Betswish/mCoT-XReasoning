@@ -115,6 +115,8 @@ run_job() {
   
   # Run the inference
   {
+    # Special handling for datasets that need language config
+    if [[ "$DATASET" == "juletxara/mgsm" || "$DATASET" == "shanchen/aiw_hard_multilingual" || "$DATASET" == "shanchen/aime_2024_multilingual" || "$DATASET" == "shanchen/aime_2025_multilingual" || "$DATASET" == "aime_combined" || "$DATASET" == "shanchen/gpqa_diamond_mc_multilingual" ]]; then
     # Convert LANG to lowercase for config
     LANG_LOWER=$(echo "$LANG" | tr '[:upper:]' '[:lower:]')
     
