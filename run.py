@@ -70,7 +70,7 @@ def load_dataset_data(dataset_name, question_field="problem", answer_field="answ
         except Exception as e:
             print(f"Error loading MGSM dataset with config {lang_config}: {e}")
             raise
-    elif dataset_name.startswith("gpqa"):
+    elif dataset_name.startswith("shanchen/gpqa"):
         lang_split = split.lower()
         try:
             # For GPQA dataset, we should use the language code as the split name
