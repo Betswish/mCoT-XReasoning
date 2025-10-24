@@ -95,8 +95,8 @@ For calculating answer accuracy, run
 python eval.py --output_dir {YOUR output folder}
 ```
 * `output_dir`: output folder path, defaul `outputs_0`.
-
+* Two scores will be stored in each row of the .csv file: the first is the accuracy/matching rate of LRM with standard prompts; while the second is about the hacked prompts.
 
 ## XReasoning Benchmark
 
-For easier usage, we have uploaded our datasets on our Huggingface. But we still provide a copy under `XReasoning_data` in this repository.
+For easier usage, we have uploaded our datasets on our [Huggingface](https://huggingface.co/collections/shanchen/xreasoning). But we still provide a copy under `XReasoning_data` in this repository.
