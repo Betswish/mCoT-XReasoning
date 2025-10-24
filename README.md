@@ -1,20 +1,30 @@
 # When Models Reason in Your Language: Controlling Thinking Language Comes at the Cost of Accuracy
+<div align="center">
+    
 [![Spaces](https://img.shields.io/badge/🤗-Open%20Data%20in%20HF-blue)](https://huggingface.co/collections/shanchen/xreasoning-681e7625c7a9ec4111a634b6)
 [![Spaces](https://img.shields.io/badge/🤗-Open%20Trained%20Models%20in%20HF-orange)](https://huggingface.co/collections/shanchen/xreasoning-models-68377e15a2e86143dc4b0383)
+_<sup>†</sup>Co-first authors, <sup>‡</sup>Co-senior authors_
 
-<div align="center">
+
+
+[Jirui Qi<sup>1†</sup>](https://betswish.github.io/) • [Shan Chen<sup>2,3,4†</sup>](https://shanchen.dev/) • [Zidi Xiong<sup>2</sup>](https://polaris-73.github.io/)
+
+[Raquel Fernández<sup>5</sup>](https://staff.fnwi.uva.nl/r.fernandezrovira/) • [Danielle S. Bitterman<sup>2,3,4‡</sup>](https://www.bittermanlab.org/people/DanielleBitterman) • [Arianna Bisazza<sup>1‡</sup>](https://www.cs.rug.nl/~bisazza/)  
+
+<sup>1</sup>University of Groningen, <sup>2</sup>Harvard University, <sup>3</sup>Mass General Brigham,
+
+<sup>4</sup>Boston Children’s Hospital, <sup>5</sup>University of Amsterdam
+
+
+</div>
+
+---
 
 **Latest update:** Our [paper](https://arxiv.org/abs/2505.22888) has been accepted by the Findings of [EMNLP 2025](https://2025.emnlp.org/)! 🎉 
 
-(Overall Assessment Score: 3/3/3.5/4 out of 5)
+**Overall Assessment Score (from four reviewers):** 3, 3, 3.5, 4 out of 5.
 
-[Jirui Qi<sup>1†</sup>](https://betswish.github.io/) • [Shan Chen<sup>2,3,4†</sup>](https://shanchen.dev/) • [Zidi Xiong<sup>2</sup>](https://polaris-73.github.io/) • [Raquel Fernández<sup>5</sup>](https://staff.fnwi.uva.nl/r.fernandezrovira/) • [Danielle S. Bitterman<sup>2,3,4‡</sup>](https://www.bittermanlab.org/people/DanielleBitterman) • [Arianna Bisazza<sup>1‡</sup>](https://www.cs.rug.nl/~bisazza/)  
-
-<sup>1</sup>University of Groningen, <sup>2</sup>Harvard University, <sup>3</sup>Mass General Brigham,
-<sup>4</sup>Boston Children’s Hospital, <sup>5</sup>University of Amsterdam
-
-_<sup>†</sup>Co-first authors, <sup>‡</sup>Co-senior authors_
-</div>
+---
 
 ## Environments
 
