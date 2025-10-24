@@ -45,7 +45,7 @@ The script now supports the following types of models:
 ## How to run
 ### Quick-start
 
-As a quick start, you may simply run `bash run_multilingual.sh` for getting all results in our paper!
+As a quick start, you may simply run `bash run_multilingual.sh` to get all generations of the LRMs tested in our paper! By default, the responses will be stored in `outputs_0/`.
 
 ### Parameter Details
 
@@ -109,9 +109,9 @@ For calculating answer accuracy, run
 ```bash
 python eval.py --output_dir {YOUR output folder}
 ```
-* `output_dir`: output folder path, defaul `outputs_0`.
+* `output_dir`: output folder path, defaul `outputs_0/`.
 * Two scores will be stored in each row of the .csv file: the first is the accuracy/matching rate of LRM with standard prompts; while the second is about the hacked prompts.
 
 ## XReasoning Benchmark
 
-For easier usage, we have uploaded our datasets on our [Huggingface](https://huggingface.co/collections/shanchen/xreasoning). But we still provide a copy under `XReasoning_data` in this repository.
+For easier usage, we have uploaded our datasets on our [🤗Huggingface](https://huggingface.co/collections/shanchen/xreasoning). But we still provide a copy under `XReasoning_data` in this repository.
