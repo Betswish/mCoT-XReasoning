@@ -18,6 +18,10 @@ _<sup>†</sup>Co-first authors, <sup>‡</sup>Co-senior authors_
 
 </div>
 
+> [!NOTE] 
+> To see our exploration of GRPO for solving this issue. See Readme.md in `training/`.
+
+
 ---
 
 **Latest update:** Our [paper](https://arxiv.org/abs/2505.22888) has been accepted by the Findings of [EMNLP 2025](https://2025.emnlp.org/)! 🎉 
