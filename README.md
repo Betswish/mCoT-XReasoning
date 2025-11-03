@@ -30,6 +30,16 @@ _<sup>†</sup>Co-first authors, <sup>‡</sup>Co-senior authors_
 
 ---
 
+If you find the paper helpful and use the content, we kindly suggest you cite through:
+```bibtex
+@article{qi2025models,
+  title={When Models Reason in Your Language: Controlling Thinking Trace Language Comes at the Cost of Accuracy},
+  author={Qi, Jirui and Chen, Shan and Xiong, Zidi and Fern{\'a}ndez, Raquel and Bitterman, Danielle S and Bisazza, Arianna},
+  journal={arXiv preprint arXiv:2505.22888},
+  year={2025}
+}
+```
+
 ## Environments
 
 For a quick start, you may load our environment easily with Conda:
@@ -123,9 +133,9 @@ For calculating answer accuracy, run
 ```bash
 python eval.py --output_dir {YOUR output folder}
 ```
-* `output_dir`: output folder path, defaul `outputs_0/`.
+* `output_dir`: output folder path, default `outputs_0/`.
 * Two scores will be stored in each row of the .csv file: the first is the accuracy/matching rate of LRM with standard prompts; while the second is about the hacked prompts.
 
 ## XReasoning Benchmark
 
-For easier usage, we have uploaded our datasets on our [🤗Huggingface](https://huggingface.co/collections/shanchen/xreasoning). But we still provide a copy under `XReasoning_data` in this repository.
+For easier usage, we have uploaded our datasets to our [🤗Huggingface](https://huggingface.co/collections/shanchen/xreasoning). But we still provide a copy under `XReasoning_data` in this repository.
