@@ -6,7 +6,8 @@ This directory contains training scripts for **Budget Alignment: Making Models R
 
 🤗 **Models & Data**: https://huggingface.co/collections/shanchen/xreasoning
 
-🤔 **Eval code**: https://github.com/Betswish/mCoT-pass-K
+🤔 **Eval Code**: https://github.com/Betswish/mCoT-pass-K
+
 ---
 
 ## Overview
