@@ -3,7 +3,9 @@
 This directory contains training scripts for **Budget Alignment: Making Models Reason in the User's Language** — a practical approach to align LLMs to reason in the user's query language (Japanese, French, Spanish, etc.) rather than defaulting to English/Chinese.
 
 📖 **Blog Post**: https://huggingface.co/blog/shanchen/mcot-rl  
+
 🤗 **Models & Data**: https://huggingface.co/collections/shanchen/xreasoning
+
 🤔 **Eval code**: https://github.com/Betswish/mCoT-pass-K
 ---
 
