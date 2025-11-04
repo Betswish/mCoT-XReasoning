@@ -224,7 +224,7 @@ If you use this code or methodology, please cite:
 
 @misc{chen2025budgetalignment,
     title={Budget Alignment: Making Models Reason in the User's Language}, 
-    author={Shan Chen and Jirui Qi and Zidi Xiong and Arianna Bisazza and Raquel Fernández and Danielle S. Bitterman},
+    author={Shan Chen and Jirui Qi and Zidi Xiong and Timothy Miller and Arianna Bisazza and Raquel Fernández and Danielle S. Bitterman},
     year={2025},
     url={https://github.com/Betswish/mCoT-XReasoning/tree/main/training}, 
 }
@@ -234,7 +234,7 @@ If you use this code or methodology, please cite:
 
 ## Authors
 
-[Shan Chen*](https://shanchen.dev/) | [Jirui Qi*](https://betswish.github.io/) | [Zidi Xiong](https://polaris-73.github.io/) | [Arianna Bisazza](https://inclow-lm.github.io/) | [Raquel Fernández](https://staff.fnwi.uva.nl/r.fernandezrovira/) | [Danielle Bitterman](https://www.bittermanlab.org/)
+[Shan Chen*](https://shanchen.dev/) | [Jirui Qi*](https://betswish.github.io/) | [Zidi Xiong](https://polaris-73.github.io/) | [Timothy Miller](https://tmills.github.io/) | [Arianna Bisazza](https://inclow-lm.github.io/) | [Raquel Fernández](https://staff.fnwi.uva.nl/r.fernandezrovira/) | [Danielle Bitterman](https://www.bittermanlab.org/)
 
 **Institutions**: Mass General Brigham | Harvard University | University of Groningen | University of Amsterdam
 
