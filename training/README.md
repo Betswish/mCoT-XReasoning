@@ -4,7 +4,7 @@ This directory contains training scripts for **Budget Alignment: Making Models R
 
 📖 **Blog Post**: https://huggingface.co/blog/shanchen/mcot-rl  
 🤗 **Models & Data**: https://huggingface.co/collections/shanchen/xreasoning
-
+🤔 **Eval code**: https://github.com/Betswish/mCoT-pass-K
 ---
 
 ## Overview
