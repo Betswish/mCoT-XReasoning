@@ -19,7 +19,7 @@ _<sup>†</sup>Co-first authors, <sup>‡</sup>Co-senior authors_
 </div>
 
 > [!NOTE] 
-> To see our exploration of SFT + GRPO for solving this issue. See Readme.md in `training/`.
+> To see our exploration of SFT + GRPO for solving this issue. See [Readme.md](https://github.com/Betswish/mCoT-XReasoning/tree/main/training) in `training/`.
 
 
 ---
