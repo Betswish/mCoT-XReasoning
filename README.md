@@ -32,11 +32,27 @@ _<sup>†</sup>Co-first authors, <sup>‡</sup>Co-senior authors_
 
 If you find the paper helpful and use the content, we kindly suggest you cite through:
 ```bibtex
-@article{qi2025models,
-  title={When Models Reason in Your Language: Controlling Thinking Trace Language Comes at the Cost of Accuracy},
-  author={Qi, Jirui and Chen, Shan and Xiong, Zidi and Fern{\'a}ndez, Raquel and Bitterman, Danielle S and Bisazza, Arianna},
-  journal={arXiv preprint arXiv:2505.22888},
-  year={2025}
+@inproceedings{qi-etal-2025-models,
+    title = "When Models Reason in Your Language: Controlling Thinking Language Comes at the Cost of Accuracy",
+    author = "Qi, Jirui  and
+      Chen, Shan  and
+      Xiong, Zidi  and
+      Fern{\'a}ndez, Raquel  and
+      Bitterman, Danielle  and
+      Bisazza, Arianna",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.1103/",
+    doi = "10.18653/v1/2025.findings-emnlp.1103",
+    pages = "20279--20296",
+    ISBN = "979-8-89176-335-7"
 }
 ```
 
