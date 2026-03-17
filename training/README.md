@@ -3,7 +3,7 @@
 This directory contains training scripts for **Budget Alignment: Making Models Reason in the User's Language** — a practical approach to align LLMs to reason in the user's query language (Japanese, French, Spanish, etc.) rather than defaulting to English/Chinese.
 
 > [!Note]
-> **Latest update:** This training project has been accepted by the ICLR 2026 Blog Track! 🎉 
+> **Latest update:** This training project has been accepted by the [ICLR 2026 Blog Track](https://iclr-blogposts.github.io/2026/about/)! 🎉 
 
 
 📖 **Blog Post**: https://huggingface.co/blog/shanchen/mcot-rl  
